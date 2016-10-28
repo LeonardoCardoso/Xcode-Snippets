@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>vmb</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#if !RX_NO_MODULE
+    import RxSwift
+    import RxCocoa
+#endif
+
+protocol &lt;#ViewModel#&gt;Type {
+    
+    // MARK: - 2-way Binding
+    
+    // MARK: - Input
+    
+    // MARK: - Output
+    
+    // MARK: - Initializer
+    init()
+    
+}
+
+class &lt;#ViewModel#&gt;: &lt;#ViewModel#&gt;Type {
+    
+    // MARK: - Properties
+    
+    // MARK: - Rx
+    private let disposeBag: DisposeBag = DisposeBag()
+    
+    // MARK: - 2-way Binding
+    
+    // MARK: - Input
+    
+    // MARK: - Output
+    
+    // MARK: - Initializer
+    required init() {
+        
+    }
+    
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>929C5FB2-CBDF-437B-8B87-9D2088E72A5B</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>ViewModel Bootstrap</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

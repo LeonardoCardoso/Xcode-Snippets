@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>mkr</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>import Realm
+import RealmSwift
+
+class &lt;#Class#&gt;: Object {
+    
+    // MARK: - Properties
+    dynamic var &lt;#property#&gt;: &lt;#Class#&gt;?
+    
+    // MARK: - Initializer
+    init(&lt;#property#&gt;: &lt;#Class#&gt;) {
+        
+        super.init()
+        
+        self.&lt;#property#&gt; = &lt;#property#&gt;
+        
+    }
+    
+    // MARK: - Realm Initializers and Functions
+    required init() { super.init() }
+    
+    required init(realm: RLMRealm, schema: RLMObjectSchema) { super.init(realm: realm, schema: schema) }
+    
+    required init(value: Any, schema: RLMSchema) { super.init(value: value, schema: schema) }
+    
+    // override static func primaryKey() -&gt; String? { return "&lt;#propety#&gt;" }
+    
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>7D83DAF8-D1D7-4563-B693-64DEBAB74FC8</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Mark Realm Class</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
