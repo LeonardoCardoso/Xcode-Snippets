@@ -3,19 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>mki</string>
+	<string>mkr</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: - Initializer</string>
+	<string>// MARK: - Rx</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>6BDE2C4E-503C-48FC-95F3-7B7A711F5FF9</string>
+	<string>4529CCE5-E36B-45AC-9377-407E43B3FAA1</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Mark Initializer</string>
+	<string>Mark Rx</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

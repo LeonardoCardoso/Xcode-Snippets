@@ -6,10 +6,10 @@
 	<string>mk</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: -</string>
+	<string>// MARK: - </string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>E0715EF7-51ED-41B9-A0C6-1F363FDFDC3C</string>
 	<key>IDECodeSnippetLanguage</key>
@@ -19,6 +19,6 @@
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>
