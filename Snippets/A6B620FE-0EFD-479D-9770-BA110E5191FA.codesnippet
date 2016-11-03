@@ -3,19 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>mkr</string>
+	<string>mkf</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: - Rx</string>
+	<string>// MARK: - Flow</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>4529CCE5-E36B-45AC-9377-407E43B3FAA1</string>
+	<string>A6B620FE-0EFD-479D-9770-BA110E5191FA</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Mark Rx</string>
+	<string>Mark Flow</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

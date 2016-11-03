@@ -3,59 +3,46 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>vmb</string>
+	<string>bvc</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#if !RX_NO_MODULE
+	<string>import UIKit
+#if !RX_NO_MODULE
     import RxSwift
     import RxCocoa
 #endif
 
-protocol &lt;#ViewModel#&gt;Type {
-    
-    // MARK: - 2-way Binding
-    
-    // MARK: - Input
-    
-    // MARK: - Output
-
-    // MARK: - Flow
-    
-    // MARK: - Initializers
-    init()
-    
-}
-
-class &lt;#ViewModel#&gt;: &lt;#ViewModel#&gt;Type {
+final class &lt;#ItemViewCell#&gt;: BaseTableViewCell {
     
     // MARK: - Properties
-    
-    // MARK: - Rx
-    private let disposeBag: DisposeBag = DisposeBag()
-    
-    // MARK: - 2-way Binding
-    
-    // MARK: - Input
-    
-    // MARK: - Output
-
-    // MARK: - Flow
+    var view: &lt;#ViewCell#&gt;?
     
     // MARK: - Initializers
-    required init() {
+    override func initialize() {
+        
+        self.view = &lt;#ViewCell#&gt;(superview: self.contentView)
+        
+        self.view?.layout()
         
     }
     
+    // MARK: - ViewModel Configuration
+    func configureBindings(viewModel: &lt;#ItemViewModel#&gt;Type, row: Int) {
+        
+        
+    }
+    
+    
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>929C5FB2-CBDF-437B-8B87-9D2088E72A5B</string>
+	<string>AA5A299E-7DB7-4FFB-9BF8-F926F1BA7FF3</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>ViewModel Bootstrap</string>
+	<string>Build View Cell</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
