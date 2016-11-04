@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>bv</string>
+	<string>rv</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>TopLevel</string>
@@ -11,8 +11,6 @@
 	<key>IDECodeSnippetContents</key>
 	<string>import UIKit
 import SnapKit
-import Then
-import CGFloatLiteral
 #if !RX_NO_MODULE
     import RxSwift
     import RxCocoa
@@ -74,7 +72,7 @@ class &lt;#View#&gt;: UIView {
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Build View</string>
+	<string>Rx View</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

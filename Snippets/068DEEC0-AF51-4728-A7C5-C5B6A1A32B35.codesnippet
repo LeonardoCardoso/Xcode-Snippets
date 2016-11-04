@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>import UIKit
+
+class &lt;#ViewController#&gt;: BaseViewController {
+    
+    // MARK: - Properties
+    private var &lt;#customView#&gt;: &lt;#View#&gt;?
+    
+    // MARK: - Lifecycle
+    override func viewDidLoad() { super.viewDidLoad() }
+    
+    override func didReceiveMemoryWarning() { super.didReceiveMemoryWarning() }
+    
+    // MARK: - Initializers
+    init(viewModel: &lt;#ViewModel#&gt;Type) {
+        
+        super.init()
+        
+        self.&lt;#customView#&gt; = View(superview: self.view)
+        self.&lt;#customView#&gt;?.layout()
+        
+        self.configureBindings(viewModel: viewModel)
+        
+    }
+    
+    required convenience init?(coder aDecoder: NSCoder) { fatalError("init(coder:) has not been implemented") }
+    
+    // MARK: - ViewModel Configuration
+    private func configureBindings(viewModel: &lt;#ViewModel#&gt;Type) {
+        
+        // 2-way Binding
+        
+        // Input
+        
+        // Output
+        
+    }
+    
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>068DEEC0-AF51-4728-A7C5-C5B6A1A32B35</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Rx ViewController</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
