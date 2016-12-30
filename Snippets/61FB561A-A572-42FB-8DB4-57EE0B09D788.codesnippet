@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>model</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>import SwiftyJSON
+
+class &lt;#Model#&gt;: Decode {
+    
+    // MARK: - Properties
+    var &lt;#property#&gt;: String?
+    
+    // MARK: - Initializers
+    init() {
+        
+        self.&lt;#property#&gt; = nil
+        
+    }
+    
+    init(&lt;#property#&gt;: String) {
+        
+        self.&lt;#property#&gt; = &lt;#property#&gt;
+        
+    }
+    
+    // MARK: - Decode
+    convenience required init(_ json: JSON?) {
+        
+        guard let json: JSON = json else {
+            
+            self.init()
+            return
+            
+        }
+        
+        let &lt;#property#&gt;: String = json["&lt;#property#&gt;"].stringValue
+        
+        self.init(&lt;#property#&gt;: &lt;#property#&gt;)
+        
+    }
+    
+    func serialize() -&gt; [String : Any] {
+        
+        var result: [String : Any] = [:]
+        
+        if let value: String = self.&lt;#property#&gt; { result.updateValue(value, forKey: "&lt;#property#&gt;") }
+        
+        return result
+        
+    }
+    
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>61FB561A-A572-42FB-8DB4-57EE0B09D788</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Model</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

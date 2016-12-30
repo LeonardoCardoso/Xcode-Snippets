@@ -6,7 +6,7 @@
 	<string>mk</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>TopLevel</string>
+		<string>StringOrComment</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>// MARK: - </string>
