@@ -3,22 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>mki</string>
+	<string>ifl</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: - Initializers</string>
+	<string>if let &lt;#property#&gt;:&lt;#Class#&gt; = self.&lt;#property#&gt; {
+    &lt;#code#&gt;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>6B1170AF-E926-4A1D-A26C-7BD2EBA264A0</string>
+	<string>1AA0C455-7BDC-4686-8285-B2C721B0B7B9</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>if let</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Mark Initializers</string>
+	<string>if let</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
