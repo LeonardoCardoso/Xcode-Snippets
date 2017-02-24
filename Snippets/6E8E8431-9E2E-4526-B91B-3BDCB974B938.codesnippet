@@ -28,7 +28,7 @@ class &lt;#View#&gt;: UIView {
         
         self.configureSubviews()
         
-        if let &lt;#someView#&gt;: &lt;#SomeClassView#&gt; = self.&lt;#someView#&gt; { self.addSubview(&lt;#someView#&gt;) }
+        if let view: &lt;#SomeClassView#&gt; = self.&lt;#someView#&gt; { self.addSubview(view) }
         
         superview.addSubview(self)
         
@@ -51,16 +51,16 @@ class &lt;#View#&gt;: UIView {
     // Set up layout
     func layout() {
         
-        self.snp.makeConstraints { (make) -&gt; Void in
+        self.snp.makeConstraints {
             
-            make.width.equalToSuperview()
-            make.height.equalToSuperview()
+            $0.width.equalToSuperview()
+            $0.height.equalToSuperview()
             
         }
         
-        self.&lt;#someView#&gt;?.snp.makeConstraints { (make) -&gt; Void in
+        self.&lt;#someView#&gt;?.snp.makeConstraints {
             
-            &lt;#someContraints#&gt;
+            $0.&lt;#someContraint#&gt;
             
         }
         
