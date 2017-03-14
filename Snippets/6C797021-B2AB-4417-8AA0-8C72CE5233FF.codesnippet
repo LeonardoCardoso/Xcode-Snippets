@@ -3,24 +3,30 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>iflc</string>
+	<string>subs</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>if let constraint: ConstraintItem = self.&lt;#view#&gt;?.snp.&lt;#property#&gt; { $0.&lt;#property#&gt;.equalTo(constraint) }</string>
+	<string>viewModel.&lt;#property#&gt;
+            .subscribe(
+                onNext: { [weak self] &lt;#_#&gt; in
+
+
+                }
+            ).addDisposableTo(self.disposeBag)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>28EE5316-EF35-4FD3-9E33-E02262BF47C6</string>
+	<string>6C797021-B2AB-4417-8AA0-8C72CE5233FF</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>if let constraint</string>
+	<string>subs</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>if let constraint</string>
+	<string>RxSwift Subcribe</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

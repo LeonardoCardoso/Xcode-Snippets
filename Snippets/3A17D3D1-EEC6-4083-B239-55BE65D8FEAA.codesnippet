@@ -3,24 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>iflc</string>
+	<string>drive</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>if let constraint: ConstraintItem = self.&lt;#view#&gt;?.snp.&lt;#property#&gt; { $0.&lt;#property#&gt;.equalTo(constraint) }</string>
+	<string>viewModel.&lt;#property#&gt;
+            .drive(
+                onNext: { [weak self] &lt;#_#&gt; in
+
+
+                }
+            ).addDisposableTo(self.disposeBag)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>28EE5316-EF35-4FD3-9E33-E02262BF47C6</string>
+	<string>3A17D3D1-EEC6-4083-B239-55BE65D8FEAA</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>if let constraint</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>if let constraint</string>
+	<string>RxSwift Drive</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
