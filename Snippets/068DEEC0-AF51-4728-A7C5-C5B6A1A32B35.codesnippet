@@ -11,7 +11,8 @@
 	<key>IDECodeSnippetContents</key>
 	<string>import UIKit
 
-class &lt;#ViewController#&gt;: BaseViewController {
+/// &lt;#ViewController#&gt;
+final class &lt;#ViewController#&gt;: BaseViewController {
     
     // MARK: - Properties
     private var &lt;#customView#&gt;: &lt;#View#&gt;?
@@ -19,24 +20,26 @@ class &lt;#ViewController#&gt;: BaseViewController {
     // MARK: - Lifecycle
     override func viewDidLoad() { super.viewDidLoad() }
     
-    override func didReceiveMemoryWarning() { super.didReceiveMemoryWarning() }
-    
-    // MARK: - Initializers
-    init(viewModel: &lt;#ViewModel#&gt;Type) {
+    // MARK: - Functions
+    /**
+     Set up view controller
+     */
+    static func setUp(viewModel: &lt;#ViewModel#&gt;Type) -&gt; &lt;#ViewController#&gt; {
         
-        super.init()
+        let controller = &lt;#ViewController#&gt;()
+        controller.customView = .setUp(superview: controller.view)
+        controller.customView?.layout()
         
-        self.&lt;#customView#&gt; = View(superview: self.view)
-        self.&lt;#customView#&gt;?.layout()
+        controller.configureBindings(viewModel: viewModel)
         
-        self.configureBindings(viewModel: viewModel)
+        return controller
         
     }
     
-    required convenience init?(coder aDecoder: NSCoder) { fatalError("init(coder:) has not been implemented") }
-    
-    // MARK: - ViewModel Configuration
-    private func configureBindings(viewModel: &lt;#ViewModel#&gt;Type) {
+    /**
+     Configure view model
+     */
+    internal func configureBindings(viewModel: &lt;#ViewModel#&gt;Type) {
         
         // 2-way Binding
         

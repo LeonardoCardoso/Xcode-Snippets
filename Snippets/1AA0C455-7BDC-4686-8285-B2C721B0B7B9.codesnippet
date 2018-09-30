@@ -9,7 +9,7 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>if let &lt;#property#&gt;: &lt;#Class#&gt; = self.&lt;#property#&gt; {
+	<string>if let &lt;#property#&gt; = self.&lt;#property#&gt; {
     &lt;#code#&gt;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>

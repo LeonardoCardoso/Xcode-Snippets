@@ -15,7 +15,7 @@
 
 
                 }
-            ).addDisposableTo(self.disposeBag)</string>
+    ).dispoed(by: bag)</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>6C797021-B2AB-4417-8AA0-8C72CE5233FF</string>
 	<key>IDECodeSnippetLanguage</key>

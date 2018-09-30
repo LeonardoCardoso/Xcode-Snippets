@@ -11,36 +11,41 @@
 	<key>IDECodeSnippetContents</key>
 	<string>import UIKit
 import SnapKit
+import Then
 #if !RX_NO_MODULE
     import RxSwift
     import RxCocoa
 #endif
 
-class &lt;#View#&gt;: UIView {
+/// &lt;#View#&gt;
+final class &lt;#View#&gt;: UIView {
     
     // MARK: - Properties
     var &lt;#someView#&gt;: &lt;#SomeViewClass#&gt;?
     
-    // MARK: - Initializers
-    init(superview: UIView) {
+    // MARK: - Functions
+    /** 
+     Set up views.
+     */
+    static func setUp(superview: UIView) -&gt; $1View {
         
-        super.init(frame: .zero)
+        let view = $1View()
+        view.configureSubviews()
         
-        self.configureSubviews()
+        if let &lt;#someView#&gt; = view.&lt;#someView#&gt; { view.addSubview(&lt;#someView#&gt;) }
         
-        if let view: &lt;#SomeClassView#&gt; = self.&lt;#someView#&gt; { self.addSubview(view) }
+        superview.addSubview(view)
         
-        superview.addSubview(self)
+        return view
         
     }
     
-    required init?(coder aDecoder: NSCoder) { super.init(coder: aDecoder) }
-    
-    // MARK: - Functions
-    // Configure SubViews
-    func configureSubviews() {
+    /**
+     Configure subviews.
+     */
+    internal func configureSubviews() {
         
-        self.&lt;#someView#&gt; = &lt;#SomeViewClass#&gt;().then {
+        &lt;#someView#&gt; = &lt;#SomeViewClass#&gt;().then {
             
             $0.&lt;#someProperty#&gt; = &lt;#someValue#&gt;
             
@@ -51,14 +56,14 @@ class &lt;#View#&gt;: UIView {
     // Set up layout
     func layout() {
         
-        self.snp.makeConstraints {
+        snp.makeConstraints {
             
             $0.width.equalToSuperview()
             $0.height.equalToSuperview()
             
         }
         
-        self.&lt;#someView#&gt;?.snp.makeConstraints {
+        &lt;#someView#&gt;?.snp.makeConstraints {
             
             $0.&lt;#someContraint#&gt;
             

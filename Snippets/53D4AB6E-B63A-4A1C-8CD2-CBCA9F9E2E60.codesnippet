@@ -9,7 +9,7 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>self.&lt;#view#&gt;?.snp.makeConstraints {
+	<string>&lt;#view#&gt;?.snp.makeConstraints {
 
             $0.&lt;#property#&gt;
 
@@ -23,6 +23,6 @@
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

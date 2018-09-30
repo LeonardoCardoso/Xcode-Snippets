@@ -9,11 +9,7 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>self.&lt;#view#&gt; = &lt;#class#&gt;().then {
-
-            $0.&lt;#property#&gt; = &lt;#value#&gt;
-
-        }</string>
+	<string>&lt;#view#&gt; = &lt;#class#&gt;().then { $0.&lt;#property#&gt; = &lt;#value#&gt; }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>08F1F520-A0F4-4A9C-8DCE-89B782FD39C4</string>
 	<key>IDECodeSnippetLanguage</key>
@@ -23,6 +19,6 @@
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

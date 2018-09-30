@@ -12,7 +12,8 @@
 	<string>import Realm
 import RealmSwift
 
-class &lt;#Class#&gt;: Object {
+/// &lt;#Class#&gt;
+final class &lt;#Class#&gt;: Object {
     
     // MARK: - Properties
     dynamic var &lt;#property#&gt;: &lt;#Class#&gt;?

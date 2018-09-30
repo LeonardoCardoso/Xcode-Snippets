@@ -9,7 +9,7 @@
 		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>if let constraint: ConstraintItem = self.&lt;#view#&gt;?.snp.&lt;#property#&gt; { $0.&lt;#property#&gt;.equalTo(constraint) }</string>
+	<string>if let constraint = &lt;#view#&gt;?.snp.&lt;#property#&gt; { $0.&lt;#property#&gt;.equalTo(constraint) }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>28EE5316-EF35-4FD3-9E33-E02262BF47C6</string>
 	<key>IDECodeSnippetLanguage</key>

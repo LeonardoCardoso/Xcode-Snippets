@@ -29,7 +29,7 @@ protocol &lt;#ViewModel#&gt;Type {
     
 }
 
-class &lt;#ViewModel#&gt;: &lt;#ViewModel#&gt;Type {
+final class &lt;#ViewModel#&gt;: &lt;#ViewModel#&gt;Type {
     
     // MARK: - Properties
     

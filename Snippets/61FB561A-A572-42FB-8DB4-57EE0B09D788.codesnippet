@@ -11,7 +11,7 @@
 	<key>IDECodeSnippetContents</key>
 	<string>import SwiftyJSON
 
-class &lt;#Model#&gt;: Decode {
+final class &lt;#Model#&gt;: Decode {
     
     // MARK: - Properties
     var &lt;#property#&gt;: String?
@@ -26,32 +26,6 @@ class &lt;#Model#&gt;: Decode {
     init(&lt;#property#&gt;: String) {
         
         self.&lt;#property#&gt; = &lt;#property#&gt;
-        
-    }
-    
-    // MARK: - Decode
-    convenience required init(_ json: JSON?) {
-        
-        guard let json: JSON = json else {
-            
-            self.init()
-            return
-            
-        }
-        
-        let &lt;#property#&gt;: String = json["&lt;#property#&gt;"].stringValue
-        
-        self.init(&lt;#property#&gt;: &lt;#property#&gt;)
-        
-    }
-    
-    func serialize() -&gt; [String : Any] {
-        
-        var result: [String : Any] = [:]
-        
-        if let value: String = self.&lt;#property#&gt; { result.updateValue(value, forKey: "&lt;#property#&gt;") }
-        
-        return result
         
     }
     

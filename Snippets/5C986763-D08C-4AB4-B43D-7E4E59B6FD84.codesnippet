@@ -9,13 +9,13 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: - Lifecyle</string>
+	<string>// MARK: - Life Cycle</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>5C986763-D08C-4AB4-B43D-7E4E59B6FD84</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Mark Lifecycle</string>
+	<string>Mark Life Cycle</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

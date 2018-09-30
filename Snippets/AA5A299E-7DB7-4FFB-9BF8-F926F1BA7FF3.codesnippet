@@ -23,14 +23,14 @@ final class &lt;#ItemViewCell#&gt;: BaseTableViewCell {
     // MARK: - Initializers
     override func initialize() {
         
-        self.view = &lt;#ViewCell#&gt;(superview: self.contentView)
+        view = &lt;#ViewCell#&gt;(superview: contentView)
         
-        self.view?.layout()
+        view?.layout()
         
     }
     
     // MARK: - ViewModel Configuration
-    func configureBindings(viewModel: &lt;#ItemViewModel#&gt;Type, row: Int) {
+    internal func configureBindings(viewModel: &lt;#ItemViewModel#&gt;Type, row: Int) {
         
         
     }
